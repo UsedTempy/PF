@@ -10,11 +10,11 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 
 link1.addEventListener('click', () => {
-    scrollToElement('.header');
+    scrollToElement('.content', -.2);
 });
 
 link2.addEventListener('click', () => {
-    scrollToElement('.header', 1);
+    scrollToElement('.header');
 });
 
 link3.addEventListener('click', () => {
