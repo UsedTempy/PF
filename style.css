@@ -221,6 +221,7 @@ section .header{
 footer{
     position: relative;
     display: grid;
+    align-items: center;
     grid-template-columns: 400px repeat(2, 1fr);
     gap: 2rem;
 }
@@ -276,6 +277,36 @@ footer .column > a{
 }
 
 footer .column > a:hover{
+    color: #1d4ed8;
+}
+
+footer .copyField {
+    display: flex;
+    align-content: start;
+    background: none; /* Remove default button background */
+    border: 2px solid #fff; /* White outline */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px 10px; /* Optional padding for content */
+    cursor: pointer; /* Indicate clickable element */
+    transition: all 0.3s ease; 
+}
+
+footer .copyField:hover{
+    border: 2px solid #1e40af;
+}
+
+footer .copyField h5{
+    color: #fff;
+    border: none; /* Remove unnecessary border */
+}
+
+footer .copyField i{
+    color: #fff;
+    margin-left: 10px;
+    transition: all 0.3s ease; 
+}
+
+footer .copyField i:hover{
     color: #1d4ed8;
 }
 
