@@ -20,3 +20,9 @@ link2.addEventListener('click', () => {
 link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
+
+const cvButton = document.getElementById('cvLink');
+cvButton.addEventListener('click', function() {
+    const cvLink = "https://usedtempy.github.io/Portfolio-Website/utils/CVTest.pdf";
+    window.open(cvLink, '_blank')
+  });
