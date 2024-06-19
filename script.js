@@ -28,6 +28,6 @@ link4.addEventListener('click', () => {
 
 const cvButton = document.getElementById('cvLink');
 cvButton.addEventListener('click', function() {
-    const cvLink = "https://usedtempy.github.io/Portfolio-Website/utils/CVTest.pdf";
+    const cvLink = "./cv.html";
     window.open(cvLink, '_blank')
   });
