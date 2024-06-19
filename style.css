@@ -319,6 +319,16 @@ footer .copyField i:hover{
     text-align: center;
 }
 
+.mainframe{
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
 @media (width < 900px){
     .nav-links{
         display: none;
