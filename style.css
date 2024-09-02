@@ -22,6 +22,13 @@ img{
     padding-top: 10px; /* Optional: Adds some padding at the top */
 }
 
+.robloxGameIcon {
+    width: 200px;  /* Adjust width as needed */
+    height: auto;  /* Maintains aspect ratio */
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
 .gameIcon {
     width: 250px;  /* Adjust width as needed */
     height: auto;  /* Maintains aspect ratio */
@@ -125,19 +132,19 @@ header{
     gap: 2rem;
 }
 
-header .content h4{
-    margin-bottom: 1rem;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
 header .content h1{
     color: #fff;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
     line-height: 4rem;
+}
+
+header .content h4{
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 header .content h1 span{
@@ -230,12 +237,19 @@ section .header{
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
+    margin-top: 50px; /* Adjust this value to lower the button */
 }
 
 .projects .card a button:hover{
     background-color: #1e40af;
     border-color: #1e40af;
 }
+
+.projects .card .content h5 {
+    color: #fff;
+    font-size: large;
+}
+
 
 footer{
     position: relative;
