@@ -13,6 +13,25 @@ img{
     display: flex;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: center;
+    height: 300px; /* Ensure this matches your desired card height */
+    padding-top: 10px; /* Optional: Adds some padding at the top */
+}
+
+.gameIcon {
+    width: 250px;  /* Adjust width as needed */
+    height: auto;  /* Maintains aspect ratio */
+    margin-bottom: 30px;
+    /* You can also set height if you prefer */
+    /* height: 150px;  */
+    /* If both width and height are set, the video might be stretched */
+}
+
+
 a{
     text-decoration: none;
 }
