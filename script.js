@@ -23,6 +23,6 @@ link4.addEventListener('click', () => {
 
 const cvButton = document.getElementById('cvLink');
 cvButton.addEventListener('click', function() {
-    const cvLink = "./cv.html";
+    const cvLink = "./pdf/CV.pdf";
     window.open(cvLink, '_blank')
   });
